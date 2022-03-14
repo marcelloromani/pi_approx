@@ -19,7 +19,7 @@ def main():
     ]
     for t in tests:
         pi = approx_pi(t)
-        print(f"{t}  ==>  {pi}")
+        print(f"{t:10}  ==>  {pi}")
 
 
 if __name__ == "__main__":
