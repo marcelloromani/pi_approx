@@ -15,6 +15,7 @@ def main():
         1000,
         10000,
         100000,
+        1000000,
     ]
     for t in tests:
         pi = approx_pi(t)
